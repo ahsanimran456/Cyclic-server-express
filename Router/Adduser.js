@@ -45,7 +45,7 @@ function Adduser(req, res) {
                 // ........when user exits .....//
                 if (user) {
                     console.log("user exist is db ")
-                    res.send({ message: "Email is already in use" })
+                    res.send({ message: "Email is already in use !" })
                 }
                 // ........when user does not exits .....//
                 else {
